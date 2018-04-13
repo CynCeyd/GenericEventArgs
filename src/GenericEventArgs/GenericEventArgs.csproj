@@ -2,8 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyVersion>2018.4.0.1</AssemblyVersion>
-    <FileVersion>2018.4.0.1</FileVersion>
+    <AssemblyVersion>2018.4.6.7</AssemblyVersion>
+    <FileVersion>2018.4.6.7</FileVersion>
+    <Authors>CynCeyd</Authors>
+    <Company />
+    <Description>Lightweight implementation of generic EventArgs</Description>
+    <Copyright>(C) CynCeyd 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/CynCeyd/GenericEventArgs/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/CynCeyd/GenericEventArgs</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CynCeyd/GenericEventArgs</RepositoryUrl>
+    <PackageTags>generic,eventargs</PackageTags>
+    <PackageId>CynCeyd.GenericEventArgs</PackageId>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\GenericEventArgs.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>

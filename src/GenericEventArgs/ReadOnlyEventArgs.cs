@@ -9,7 +9,7 @@ namespace GenericEventArgs
     /// </summary>
     /// <typeparam name="TEventData">Type of payload</typeparam>
     /// <inheritdoc cref="IReadOnlyEventArgs{TEventData}"/>
-    public class ReadOnlyEventArgs<TEventData> : IReadOnlyEventArgs<TEventData>
+    public class ReadOnlyEventArgs<TEventData> : EventArgs, IReadOnlyEventArgs<TEventData>
     {
         #region Properties
 
