@@ -34,6 +34,18 @@ There is also an implementation of the generic EventArgs that is cancelable. It 
 
 Depending on your needs, you might want to implement the underlying interfaces by yourself:
 
-IEventArgs<TEventData> contains ```csharp TEventData Data { get; set; } ```
-IReadOnlyEventArgs<TEventData> contains ```csharp TEventData Data { get; } ```
-ICancelEventArgs<TEventData> contains ```csharp bool Cancel { get; set; } ```
+IEventArgs<TEventData> contains 
+  
+```csharp 
+TEventData Data { get; set; } 
+```
+
+IReadOnlyEventArgs<TEventData> contains 
+```
+csharp TEventData Data { get; }   
+```
+  
+ICancelEventArgs<TEventData> contains 
+```csharp 
+bool Cancel { get; set; } 
+```
