@@ -1,6 +1,22 @@
 # GenericEventArgs
 Lightweight implementation of generic EventArgs
 
+### How to install
+
+[NuGet Package](https://www.nuget.org/packages/CynCeyd.GenericEventArgs/)
+
+You can pull the NuGet package using 
+
+```
+Install-Package CynCeyd.GenericEventArgs
+```
+
+or alternatively using the dotnet cli
+
+```
+dotnet add package CynCeyd.GenericEventArgs --version 1.0.1
+```
+
 ### EventArgs<TEventData> and ReadOnlyEventArgs<TEventData>
 To create a simple generic EventArgs<TEventData>, define an event like so:
 
