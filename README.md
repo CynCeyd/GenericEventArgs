@@ -24,7 +24,7 @@ protected virtual void OnBar(EventArgs<Foo> e){
 
 Please notice that EventArgs<TEventData>s property Data has both public getters and setters. 
 
-If you prefer an immutable version use ReadOnlyEventArgs<TEventData>. The procedure is identical, except the protected setter for the Data property.
+If you prefer an immutable version use ReadOnlyEventArgs<TEventData>. The procedure is identical, except for the protected setter for the Data property.
 
 ### CancelEventArgs<TEventData> and ReadOnlyCancelEventArgs<TEventData>
 
