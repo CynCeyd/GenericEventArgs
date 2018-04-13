@@ -41,8 +41,8 @@ TEventData Data { get; set; }
 ```
 
 IReadOnlyEventArgs<TEventData> contains 
-```
-csharp TEventData Data { get; }   
+```csharp 
+TEventData Data { get; }   
 ```
   
 ICancelEventArgs<TEventData> contains 
